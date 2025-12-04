@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"              # dependabot checks all workflows under .github/workflows
+    schedule:
+      interval: "daily"         # can be daily, weekly, monthly
